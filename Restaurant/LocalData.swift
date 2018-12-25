@@ -15,58 +15,67 @@ struct LocalData {
     
     /// List of categories the app should return
     static let categories = [
-        "appetizers",
+        "Snacks",
         "entrees",
     ]
     
     static let menuItems = [
         MenuItem(
             id: 1,
-            name: "Spaghetti and Meatballs",
-            description: "Seasoned meatballs on top of freshly-made spaghetti. Served with a robust tomato sauce.",
-            price: 9,
+            name: "Кебаб",
+            description: "Большой фирменный кебаб из телятины с перцем чили, завернутый в пресную лепешку. Подается с соусом Барбекю, маринованным луком, зернами граната и свежей зеленью.",
+            price: 10,
             category: "entrees",
-            imageURL: URL(fileURLWithPath: "SpaghettiAndMeatballs")
+            imageURL: URL(fileURLWithPath: "Kebab")
         ),
         MenuItem(
             id: 2,
-            name: "Margherita Pizza",
-            description: "Tomato sauce, fresh mozzarella, basil, and extra-virgin olive oil.",
-            price: 10,
-            category: "entrees",
-            imageURL: URL(fileURLWithPath: "MargheritaPizza")
+            name: "Плов",
+            description: "Традиционный плов, приготовленный из лазурного риса, мяса молодого барашка, желтой моркови, с добавлением репчатого лука и восточных специй.",
+            price: 9,
+            category: "Snacks",
+            imageURL: URL(fileURLWithPath: "Plov")
         ),
         MenuItem(
             id: 3,
-            name: "Grilled Steelhead Trout Sandwich",
-            description: "Pacific steelhead trout with lettuce, tomato, and red onion.",
-            price: 9,
+            name: "Хачапури",
+            description: "Хачапури лодочкой из слоеного теста с домашним сыром Сулугуни",
+            price: 5,
             category: "entrees",
-            imageURL: URL(fileURLWithPath: "GrilledSteelheadTroutSandwich")
+            imageURL: URL(fileURLWithPath: "Hachapuri")
         ),
         MenuItem(
             id: 4,
-            name: "Pesto Linguini",
-            description: "Stewed sliced beef with yellow onions and garlic in a vinegar-soy sauce. Served with steamed jasmine rice and sautÃ©ed vegetables.",
+            name: "Хинкали",
+            description: "Пряные кавказские хинкали с начинкой из рубленного мяса. Подаются с соусом Адзырдз.",
             price: 9,
-            category: "entrees",
-            imageURL: URL(fileURLWithPath: "PestoLinguini")
+            category: "Snacks",
+            imageURL: URL(fileURLWithPath: "Hincali")
         ),
         MenuItem(
             id: 5,
-            name: "Chicken Noodle Soup",
-            description: "Delicious chicken simmered alongside yellow onions, carrots, celery, and bay leaves, chicken stock.",
-            price: 3,
-            category: "appetizers",
-            imageURL: URL(fileURLWithPath: "ChickenNoodleSoup")
+            name: "Шашлык",
+            description: "Мясо баранины, приготовленное на мангале из саксаула с маринованным луком, зернами граната и свежей зеленью",
+            price: 7,
+            category: "Snacks",
+            imageURL: URL(fileURLWithPath: "Hahlik")
         ),
         MenuItem(
             id: 6,
-            name: "Italian Salad",
-            description: "Garlic, red onions, tomatoes, mushrooms, and olives on top of romaine lettuce.",
+            name: "Кок-Самса",
+            description: "Пирожок из тонкого пресного теста с начинкой",
             price: 5,
-            category: "appetizers",
-            imageURL: URL(fileURLWithPath: "ItalianSalad")
+            category: "entrees",
+            imageURL: URL(fileURLWithPath: "Coc-Samsa")
         ),
-    ]
+        MenuItem(
+            id: 7,
+            name: "Картофель черри",
+            description: "Молодой цельный картофель, обжаренный с чесноком, тимьяном, розмарином, зирой, кориандром и морской солью.",
+            price: 5,
+            category: "entrees",
+            imageURL: URL(fileURLWithPath: "Cartofel cerry")
+            ),
+    
+]
 }
